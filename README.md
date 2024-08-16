@@ -1,4 +1,4 @@
-# The Ecological Niche Models finally Arrived! Are you ready?
+# The Ecological Niche Models finally arrived! Are you ready?
 
 <br>
 
