@@ -30,7 +30,8 @@ In **Figure 1**, you’ll see a map of the continental U.S. with red markers sho
 
 <div style="text-align: justify">
 
-For this exercise, I used [bioclimatic variables](https://www.worldclim.org/data/bioclim.html) from WorldClim, with rasters at a 2.5-minute resolution (Animation 1). Then, I built four niche models: GLM, GAM, Bioclim, and Maxent (Animation 2). These models are trying to predict where flamingos could live. Unsurprisingly, they show that flamingos prefer coastal areas. However, there are some quirks. For instance, GLM suggests that a large part of the southern U.S. could be habitable, while Bioclim is stricter, only considering a few spots in Florida as suitable.
+For this exercise, I used 
+<a target="_blank" href="https://www.worldclim.org/data/bioclim.html">bioclimatic variables</a> from WorldClim, with rasters at a 2.5-minute resolution (Animation 1). Then, I built four niche models: GLM, GAM, Bioclim, and Maxent (Animation 2). These models are trying to predict where flamingos could live. Unsurprisingly, they show that flamingos prefer coastal areas. However, there are some quirks. For instance, GLM suggests that a large part of the southern U.S. could be habitable, while Bioclim is stricter, only considering a few spots in Florida as suitable.
 
 </div>
 
@@ -104,9 +105,9 @@ _(it is recommended to use the latest versions)_
 <div style="text-align: justify">
 
 ## Methodology
-- Bioclimatic variables were downloaded from the given [historical data](https://www.worldclim.org/data/worldclim21.html) and [future data section](https://www.worldclim.org/data/cmip6/cmip6climate.html) of WorldClim.
-- Species presence data were downloaded from the [GBIF database](https://www.gbif.org/).
-- Using the software R. we followed the step by step tutorial in the [ENMTools repository](https://github.com/danlwarren/ENMTools) present on this platform **(if you can, go there to thank the people who created that package, there you will find more technical explanations about what everything is for in that package for R)**.
+- Bioclimatic variables were downloaded from the given <a target="_blank" href="https://www.worldclim.org/data/worldclim21.html">historical data</a> and <a target="_blank" href="https://www.worldclim.org/data/cmip6/cmip6climate.html">future data section</a> of WorldClim.
+- Species presence data were downloaded from the <a target="_blank" href="https://www.gbif.org/">GBIF database</a>.
+- Using the software R. we followed the step by step tutorial in the <a target="_blank" href="https://github.com/danlwarren/ENMTools">ENMTools repository</a> present on this platform **(if you can, go there to thank the people who created that package, there you will find more technical explanations about what everything is for in that package for R)**.
 
 For those who want to know how to pbtain future projections... This information will only be available to those who give freedom to their curiosity! 
 
@@ -158,3 +159,6 @@ _Actual vs Future projections_
 <br>
 
 </div>
+
+
+
